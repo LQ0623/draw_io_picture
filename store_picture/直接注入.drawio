@@ -77,7 +77,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4-DbLSEgp61FiJOc972u-26" value="EL2清除LR/更新中断状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4-DbLSEgp61FiJOc972u-26" value="清除vPE的pending表状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="535" y="980" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4-DbLSEgp61FiJOc972u-27" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
