@@ -1,9 +1,103 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="第 1 页" id="8AIUqETUGv4jXsh0F0RF">
-    <mxGraphModel dx="2066" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3720" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YGrNxuSoLZHUog0CJKNM-1" target="YGrNxuSoLZHUog0CJKNM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-1" value="设备/定时器/IPI触发" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1310" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YGrNxuSoLZHUog0CJKNM-2" target="YGrNxuSoLZHUog0CJKNM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-2" value="GIC路由" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1310" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-3" value="ITS/Distributor/Redistributor&lt;div&gt;确定目标&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1340" y="230" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YGrNxuSoLZHUog0CJKNM-4" target="YGrNxuSoLZHUog0CJKNM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YGrNxuSoLZHUog0CJKNM-4" target="YGrNxuSoLZHUog0CJKNM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-4" value="是虚拟中断吗？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1290" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YGrNxuSoLZHUog0CJKNM-6" target="YGrNxuSoLZHUog0CJKNM-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1480" y="1180" />
+              <mxPoint x="-1240" y="1180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-6" value="按物理中断路径处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1540" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YGrNxuSoLZHUog0CJKNM-7" target="YGrNxuSoLZHUog0CJKNM-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-7" value="路由到路由到pPE上的CPU接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YGrNxuSoLZHUog0CJKNM-9" target="YGrNxuSoLZHUog0CJKNM-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-9" value="VM-exit到EL2/进入 Hypervisor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YGrNxuSoLZHUog0CJKNM-10" target="YGrNxuSoLZHUog0CJKNM-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-10" value="EL2：在vGIC中构造/更新ICH_LR&amp;lt;n&amp;gt;为pending" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YGrNxuSoLZHUog0CJKNM-11" target="YGrNxuSoLZHUog0CJKNM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-11" value="VM-entry返回Guest" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YGrNxuSoLZHUog0CJKNM-12" target="YGrNxuSoLZHUog0CJKNM-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-12" value="VM-entry返回Guest" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YGrNxuSoLZHUog0CJKNM-13" target="YGrNxuSoLZHUog0CJKNM-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-13" value="Guest读取ICC_IAR1_EL1取出中断号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YGrNxuSoLZHUog0CJKNM-15" target="YGrNxuSoLZHUog0CJKNM-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-15" value="执行中断服务程序（ISR）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YGrNxuSoLZHUog0CJKNM-16" target="YGrNxuSoLZHUog0CJKNM-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1080" y="1180" />
+              <mxPoint x="-1240" y="1180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-16" value="EL2清除LR/更新中断状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-17" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1300" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YGrNxuSoLZHUog0CJKNM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.488;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YGrNxuSoLZHUog0CJKNM-3" target="YGrNxuSoLZHUog0CJKNM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
