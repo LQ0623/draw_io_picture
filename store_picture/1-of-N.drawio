@@ -38,7 +38,7 @@
           <mxGeometry x="660" y="240" width="120" height="220" as="geometry" />
         </mxCell>
         <mxCell id="BvHKnxsqlYhuCHTYUbB--8" value="选核策略" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="690" y="335" width="60" height="30" as="geometry" />
+          <mxGeometry x="680" y="335" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BvHKnxsqlYhuCHTYUbB--29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="BvHKnxsqlYhuCHTYUbB--9" target="BvHKnxsqlYhuCHTYUbB--16">
           <mxGeometry relative="1" as="geometry" />
