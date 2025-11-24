@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.0.3">
   <diagram name="第 1 页" id="HSABe9B4lm02RJ05g1Be">
-    <mxGraphModel dx="3644" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5830" dy="3074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -211,7 +211,7 @@
           <mxGeometry x="2084" y="930" width="112" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TfyJ3FZrJw6SIvTZA7bC-88" value="run()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="2080" y="740" width="90" height="25" as="geometry" />
+          <mxGeometry x="2080" y="755" width="90" height="25" as="geometry" />
         </mxCell>
         <mxCell id="TfyJ3FZrJw6SIvTZA7bC-90" value="run()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="2080" y="630" width="80" height="30" as="geometry" />
@@ -365,7 +365,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TfyJ3FZrJw6SIvTZA7bC-164" value="req_mb" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+        <mxCell id="TfyJ3FZrJw6SIvTZA7bC-164" value="in_mb[0]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="1420" y="705" width="102.5" height="25" as="geometry" />
         </mxCell>
         <mxCell id="TfyJ3FZrJw6SIvTZA7bC-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="1" source="TfyJ3FZrJw6SIvTZA7bC-165">
@@ -382,7 +382,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TfyJ3FZrJw6SIvTZA7bC-165" value="rsp&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;_mb&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+        <mxCell id="TfyJ3FZrJw6SIvTZA7bC-165" value="in_mb[1]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="1420" y="790" width="102.5" height="25" as="geometry" />
         </mxCell>
         <mxCell id="TfyJ3FZrJw6SIvTZA7bC-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=19;" edge="1" parent="1" source="TfyJ3FZrJw6SIvTZA7bC-166" target="TfyJ3FZrJw6SIvTZA7bC-169">
@@ -397,13 +397,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TfyJ3FZrJw6SIvTZA7bC-166" value="req_mb" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+        <mxCell id="TfyJ3FZrJw6SIvTZA7bC-166" value="in_mb[2]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="1420" y="880" width="102.5" height="25" as="geometry" />
         </mxCell>
         <mxCell id="TfyJ3FZrJw6SIvTZA7bC-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=19;" edge="1" parent="1" source="TfyJ3FZrJw6SIvTZA7bC-168" target="TfyJ3FZrJw6SIvTZA7bC-169">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TfyJ3FZrJw6SIvTZA7bC-168" value="req_mb" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+        <mxCell id="TfyJ3FZrJw6SIvTZA7bC-168" value="out_mb" style="rounded=0;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="1730" y="790" width="102.5" height="25" as="geometry" />
         </mxCell>
         <mxCell id="TfyJ3FZrJw6SIvTZA7bC-169" value="do_compare()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
@@ -444,6 +444,15 @@
         </mxCell>
         <mxCell id="TfyJ3FZrJw6SIvTZA7bC-224" value="extends" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="1920" y="860" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyJ3FZrJw6SIvTZA7bC-225" value="" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1725" y="1575" width="545" height="455" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyJ3FZrJw6SIvTZA7bC-226" value="注：generator与initiator之间通信使用mailbox，req和rsp两个mailbox是在generator进行例化的" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="1751" y="1640" width="419" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyJ3FZrJw6SIvTZA7bC-227" value="注：mcdt_monitor与checker之间通过mailbox进行通信，in_mbs和out_mbs都是在在checker中进行例化" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="1741" y="1787.5" width="469" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
