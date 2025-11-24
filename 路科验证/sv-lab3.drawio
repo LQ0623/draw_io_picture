@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.0.3">
   <diagram name="第 1 页" id="HSABe9B4lm02RJ05g1Be">
-    <mxGraphModel dx="5830" dy="3074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3429" dy="1808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -446,13 +446,16 @@
           <mxGeometry x="1920" y="860" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TfyJ3FZrJw6SIvTZA7bC-225" value="" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="1725" y="1575" width="545" height="455" as="geometry" />
+          <mxGeometry x="1725" y="1575" width="505" height="455" as="geometry" />
         </mxCell>
         <mxCell id="TfyJ3FZrJw6SIvTZA7bC-226" value="注：generator与initiator之间通信使用mailbox，req和rsp两个mailbox是在generator进行例化的" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=28;" vertex="1" parent="1">
           <mxGeometry x="1751" y="1640" width="419" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TfyJ3FZrJw6SIvTZA7bC-227" value="注：mcdt_monitor与checker之间通过mailbox进行通信，in_mbs和out_mbs都是在在checker中进行例化" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=28;" vertex="1" parent="1">
-          <mxGeometry x="1741" y="1787.5" width="469" height="30" as="geometry" />
+          <mxGeometry x="1741" y="1770" width="469" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyJ3FZrJw6SIvTZA7bC-228" value="注：三个generator之间在发送完测试之后都会在一个全局的semaphore中放入一把钥匙，当semaphore中的钥匙位三把时表示，测试可以结束了" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="1743" y="1910" width="469" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
