@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.4">
   <diagram name="第 1 页" id="jQf4tLybIKnFASMBkXEW">
-    <mxGraphModel dx="2431" dy="1307" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5165" dy="2778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -673,22 +673,13 @@
           <mxGeometry height="30" width="60" x="3211" y="2197.5" as="geometry" />
         </mxCell>
         <mxCell id="Sfwmdy6LW5pP9Xql9p1h-356" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="" vertex="1">
-          <mxGeometry height="600" width="550" x="210" y="2115" as="geometry" />
+          <mxGeometry height="355" width="550" x="210" y="2360" as="geometry" />
         </mxCell>
         <mxCell id="Sfwmdy6LW5pP9Xql9p1h-369" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="509" width="490" x="1320" y="570" as="geometry" />
         </mxCell>
-        <mxCell id="Sfwmdy6LW5pP9Xql9p1h-357" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=28;" value="注：generator与initiator之间通信使用mailbox，req和rsp两个mailbox都是在generator进行例化的" vertex="1">
-          <mxGeometry height="30" width="474" x="236" y="2182.5" as="geometry" />
-        </mxCell>
-        <mxCell id="Sfwmdy6LW5pP9Xql9p1h-358" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=28;" value="注：mcdf_monitor与checker之间通过mailbox进行通信，in_mbs和out_mbs都是在在checker中进行例化" vertex="1">
-          <mxGeometry height="30" width="514" x="226" y="2312.5" as="geometry" />
-        </mxCell>
-        <mxCell id="Sfwmdy6LW5pP9Xql9p1h-359" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=28;" value="注：最后的随机化都是在do_data()、do_formatter()和do_reg函数中完成的随机" vertex="1">
-          <mxGeometry height="30" width="522" x="235" y="2430" as="geometry" />
-        </mxCell>
-        <mxCell id="Sfwmdy6LW5pP9Xql9p1h-360" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=28;" value="注：为了防止出现仿真卡死的情况，可以加上一个watchdog的方法，过了多少ms之后直接结束仿真，这个时间必须能够保证测试能够正常运行结束" vertex="1">
-          <mxGeometry height="30" width="495" x="237.5" y="2565" as="geometry" />
+        <mxCell id="Sfwmdy6LW5pP9Xql9p1h-359" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=28;" value="注：所有的测试test都是继承于mcdf_base_test，使用的seq都是继承于mcdf_base_virtual_sequence，在运行测试的时候，只需要在继承的seq中的对应方法`uvm_do_with宏发送sequence就行" vertex="1">
+          <mxGeometry height="227.5" width="500" x="230" y="2422.5" as="geometry" />
         </mxCell>
         <mxCell id="Sfwmdy6LW5pP9Xql9p1h-368" edge="1" parent="1" source="Sfwmdy6LW5pP9Xql9p1h-366" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.129;entryDx=0;entryDy=0;entryPerimeter=0;" target="Sfwmdy6LW5pP9Xql9p1h-2">
           <mxGeometry relative="1" as="geometry" />
